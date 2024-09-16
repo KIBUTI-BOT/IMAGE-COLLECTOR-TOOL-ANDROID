@@ -60,7 +60,7 @@
 ## File Storage
 
 - **Images Location**: All captured images are stored in the directory you specify in the "Set Metadata" screen.
-- **Default Path**: `/Android/data/com.example.imagecollectortool/files/`
+- **Default Path**: `Android/data/com.example.metadatainputactivity/files/`
 
    You can access this directory on your PC using the following steps:
 
