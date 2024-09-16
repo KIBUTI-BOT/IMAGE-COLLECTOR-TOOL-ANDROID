@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Metadata"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/folder_name_input"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#686363"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:hint="Enter Directory Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/time_interval"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time Interval in Seconds"
+        android:textColorHint="#686363"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <!-- Add the TextView for the info text at the bottom -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="All created directories are located at:\nAndroid/data/com.example.metadatainputactivity/files"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary color for the app -->
+    <color name="colorPrimary">#6200EE</color> <!-- Deep Purple -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker Deep Purple -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+
+    <!-- Button colors -->
+    <color name="buttonBackground">#FF5722</color> <!-- Deep Orange -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White -->
+
+    <!-- Light theme colors -->
+    <color name="background_color">#FFFFFF</color> <!-- Light theme background color -->
+    <color name="text_color">#000000</color> <!-- Light theme text color -->
+    <color name="button_color">#6200EE</color> <!-- Primary button color -->
+</resources>
